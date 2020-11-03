@@ -40,7 +40,10 @@ li.debug_info-item {
     flex: 0 0 20%;
 }
 .item-desc {
-    flex: 0 0 80%;
+    margin-right: auto;
+}
+.message {
+    color: green;
 }
 
 li.debug_info-item:hover {
@@ -75,9 +78,6 @@ li.debug_info-item:hover {
     }
     .item-title {
         flex: 0 0 30%;
-    }
-    .item-desc {
-        flex: 0 0 70%;
     }
 }
 @media screen and (max-width: 576px){
