@@ -12,7 +12,7 @@ let listItems = [{
     title: 'User Agent',
     description: navigator.userAgent
 },{
-    title: 'Time According to browser',
+    title: 'Time, according to browser',
     description:  new Date().toLocaleString()
 },{
     title: 'Timezone offset',

@@ -47,12 +47,12 @@ li.debug_info-item:hover {
     background-color: #ddd;
 }
 
-footer {
-    padding: 2.5rem 5rem;
+/* footer {
+    padding: 2.5rem;
     font-size: 1.4rem;
     text-align: center;
     background-color: #ccc;
-}
+} */
 /* Custom styling end */
 
 
@@ -61,27 +61,33 @@ footer {
     .container {
         width: 92%;
         margin: 1rem auto;
+        font-size: 1rem;
     }
     header, footer {
+        font-size: 1.4rem;
+    }
+    li.debug_info-item {
+        padding: 2rem;
+        font-size: 1rem;    
+    }
+    .item-title, .item-desc {
         font-size: 1.2rem;
     }
-    ul.debug_info-item {
-        padding: 1rem 1.5rem;
-        font-size: 1rem;    
+    .item-title {
+        flex: 0 0 30%;
+    }
+    .item-desc {
+        flex: 0 0 70%;
     }
 }
 @media screen and (max-width: 576px){
     .container {
         width: 100%;
         margin: 0;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
-    header {
-        font-size: 1.4rem;
-    }
-    ul.debug_info-item {
-        padding: 0;
-        font-size: 1rem;    
+    header, footer {
+        font-size: 1.2rem;
     }
 }
 
