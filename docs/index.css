@@ -1,0 +1,39 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+
+}
+
+/* Custom styling start */
+.container {
+
+}
+
+.debug_info-card {
+
+}
+/* Custom styling end */
+
+
+/* Mobile Friendly Styling */
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 1200px){
+
+}
