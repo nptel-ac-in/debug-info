@@ -24,10 +24,8 @@ header {
     font-size: 1.6rem;
 }
 
-.debug_info {
-    box-shadow: 0 0 3px #ccc;
-}
 ul.debug_info-list {
+    box-shadow: 0 0 3px #ccc;
     list-style: none;
 }
 li.debug_info-item {
@@ -59,6 +57,19 @@ footer {
 
 
 /* Mobile Friendly Styling */
+@media screen and (max-width: 768px){
+    .container {
+        width: 92%;
+        margin: 1rem auto;
+    }
+    header, footer {
+        font-size: 1.2rem;
+    }
+    ul.debug_info-item {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;    
+    }
+}
 @media screen and (max-width: 576px){
     .container {
         width: 100%;
@@ -68,17 +79,9 @@ footer {
     header {
         font-size: 1.4rem;
     }
-    footer {
-        font-size: 1.2rem;
+    ul.debug_info-item {
+        padding: 0;
+        font-size: 1rem;    
     }
 }
 
-@media screen and (max-width: 768px){
-    .container {
-        width: 92%;
-        margin: 1rem auto;
-    }
-    header {
-        font-size: 1.2rem;
-    }
-}
