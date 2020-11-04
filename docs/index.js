@@ -32,7 +32,6 @@ function fetchBrowserInfo() {
 
 // Fetch Internet information
 fetchInternetInfo().then(data => {
-    console.log(data);
     displayFinalResponse(data)
 });
 function fetchInternetInfo() {
